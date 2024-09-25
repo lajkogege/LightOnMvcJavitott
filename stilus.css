@@ -1,0 +1,44 @@
+main {
+    width: 400px;
+    margin: auto;
+    background-color: gray;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.jatekter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.jatekter div {
+    aspect-ratio: 1;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.felkapcs {
+    background-color: rgb(230, 209, 50) !important;
+}
+
+h1{
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.forma{
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
